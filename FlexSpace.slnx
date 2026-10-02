@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Project Path="FlexSpace.BLL/FlexSpace.BLL.csproj" />
+  <Project Path="FlexSpace.DAL/FlexSpace.DAL.csproj" />
+  <Project Path="FlexSpace.UI/FlexSpace.UI.csproj" />
+</Solution>
