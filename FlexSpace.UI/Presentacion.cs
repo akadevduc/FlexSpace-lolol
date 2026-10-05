@@ -1,12 +1,28 @@
-﻿namespace FlexSpace.UI
+﻿using FlexSpace.Entidades;
+using FlexSpace.BLL;
+
+namespace FlexSpace.UI
 {
     internal class Presentacion
     {
         static void Main(string[] args)
         {
-            MostrarMenu();
+            Negocio negocio;
+
+            try
+            {
+                negocio = new Negocio();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.ReadKey();
+                return;
+            }
+
+            MostrarMenu(negocio);
         }
-        static void MostrarMenu()
+        static void MostrarMenu(Negocio negocio)
         {
             int op;
 
@@ -35,19 +51,19 @@
                 switch (op)
                 {
                     case 1:
-                        RegistrarNuevaReserva();
+                        RegistrarNuevaReserva(negocio);
                         break;
 
                     case 2:
-                        CancelarReserva();
+                        CancelarReserva(negocio);
                         break;
 
                     case 3:
-                        ConsultarReservasActivasPorPuesto();
+                        ConsultarReservasActivasPorPuesto(negocio);
                         break;
 
                     case 4:
-                        ListarClientesSancionados();
+                        ListarClientesSancionados(negocio);
                         break;
 
                     case 0:
@@ -62,7 +78,7 @@
 
             } while (op != 0);
         }
-        static void RegistrarNuevaReserva()
+        static void RegistrarNuevaReserva(Negocio negocio)
         {
             Console.Clear();
             Console.WriteLine("=== REGISTRAR NUEVA RESERVA ===");
@@ -79,22 +95,15 @@
             Console.Write("Fecha y hora de fin (dd/MM/aaaa HH:mm): ");
             DateTime fechaFin = DateTime.Parse(Console.ReadLine());
 
-            // Reserva reserva = reservaBLL.CalcularReserva(
-            //     clienteId,
-            //     puestoId,
-            //     fechaInicio,
-            //     fechaFin
-            // );
+            Reserva NuevaReserva = negocio.Cotizar(clienteId, puestoId, fechaInicio, fechaFin);
 
             Console.WriteLine();
             Console.WriteLine("=== RESUMEN DE LA RESERVA ===");
-            Console.WriteLine($"Cliente: {clienteId}");
-            Console.WriteLine($"Puesto: {puestoId}");
-            Console.WriteLine($"Inicio: {fechaInicio}");
-            Console.WriteLine($"Fin: {fechaFin}");
-
-            // Ejemplo:
-            // Console.WriteLine($"Precio: ${reserva.Precio}");
+            Console.WriteLine($"Cliente: {NuevaReserva.Id}");
+            Console.WriteLine($"Puesto: {NuevaReserva.PuestoId}");
+            Console.WriteLine($"Inicio: {NuevaReserva.FechaInicio}");
+            Console.WriteLine($"Fin: {NuevaReserva.FechaFin}");
+            Console.WriteLine($"Precio: ${NuevaReserva.CostoTotal}");
 
             Console.WriteLine();
             Console.Write("¿Confirmar reserva? (S/N): ");
@@ -103,7 +112,7 @@
 
             if (confirmacion?.ToUpper() == "S")
             {
-                // reservaBLL.Registrar(reserva);
+                negocio.RegistrarReserva(NuevaReserva);
 
                 Console.WriteLine("Reserva registrada correctamente.");
             }
@@ -116,7 +125,7 @@
         }
 
 
-        static void CancelarReserva()
+        static void CancelarReserva(Negocio negocio)
         {
             Console.Clear();
             Console.WriteLine("=== CANCELAR RESERVA ===");
@@ -124,14 +133,7 @@
             Console.Write("Ingrese el ID de la reserva: ");
             int reservaId = int.Parse(Console.ReadLine());
 
-            // La BLL debería encargarse de:
-            // - Buscar la reserva
-            // - Verificar si puede cancelarse
-            // - Calcular cuánto falta para el inicio
-            // - Si faltan menos de 2 horas, incrementar SancionesActivas
-            // - Cancelar la reserva en la BD
-
-            // reservaBLL.CancelarReserva(reservaId);
+            negocio.CancelarReserva(reservaId);
 
             Console.WriteLine();
             Console.WriteLine("Reserva cancelada correctamente.");
@@ -140,54 +142,51 @@
         }
 
 
-        static void ConsultarReservasActivasPorPuesto()
+        static void ConsultarReservasActivasPorPuesto(Negocio negocio)
         {
             Console.Clear();
             Console.WriteLine("=== RESERVAS ACTIVAS POR PUESTO ===");
 
-            Console.Write("Ingrese el código del puesto: ");
-            string codigoPuesto = Console.ReadLine();
+            Console.Write("Ingrese el id del puesto: ");
+            string idPuesto = Console.ReadLine();
 
-            // List<Reserva> reservas =
-            //     reservaBLL.ObtenerReservasActivasPorPuesto(codigoPuesto);
+            List<Reserva> reservas = negocio.ObtenerReservasActivasPorPuesto(idPuesto);
 
             Console.WriteLine();
-            Console.WriteLine($"Reservas futuras del puesto {codigoPuesto}:");
+            Console.WriteLine($"Reservas futuras del puesto {idPuesto}:");
             Console.WriteLine("--------------------------------------------");
 
-            // foreach (Reserva reserva in reservas)
-            // {
-            //     Console.WriteLine(
-            //         $"Reserva: {reserva.Id} | " +
-            //         $"Inicio: {reserva.FechaInicio} | " +
-            //         $"Fin: {reserva.FechaFin}"
-            //     );
-            // }
+            foreach (Reserva reserva in reservas)
+            {
+                Console.WriteLine(
+                    $"Reserva: {reserva.Id} | " +
+                    $"Inicio: {reserva.FechaInicio} | " +
+                    $"Fin: {reserva.FechaFin}"
+                );
+            }
 
             Console.ReadKey();
         }
 
-        static void ListarClientesSancionados()
+        static void ListarClientesSancionados(Negocio negocio)
         {
-            static void ListarClientesSancionados()
+
+            Console.Clear();
+            Console.WriteLine("=== CLIENTES SANCIONADOS ===");
+
+            List<Cliente> clientes = negocio.ObtenerClientesSancionados();
+
+            foreach (Cliente cliente in clientes)
             {
-                Console.Clear();
-                Console.WriteLine("=== CLIENTES SANCIONADOS ===");
-
-                // List<Cliente> clientes =
-                //     clienteBLL.ObtenerClientesSancionados();
-
-                // foreach (Cliente cliente in clientes)
-                // {
-                //     Console.WriteLine(
-                //         $"ID: {cliente.Id} | " +
-                //         $"Nombre: {cliente.Nombre} | " +
-                //         $"Sanciones: {cliente.SancionesActivas}"
-                //     );
-                // }
-
-                Console.ReadKey();
+                Console.WriteLine(
+                    $"ID: {cliente.Id} | " +
+                    $"Nombre: {cliente.Nombre} | " +
+                    $"Sanciones: {cliente.SancionesActivas}"
+                );
             }
+
+            Console.ReadKey();
+            
         }
     }
-}//despues termino con negocio
+}

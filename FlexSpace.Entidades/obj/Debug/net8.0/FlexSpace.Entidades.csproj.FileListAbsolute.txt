@@ -1,0 +1,11 @@
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\bin\Debug\net8.0\FlexSpace.Entidades.deps.json
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\bin\Debug\net8.0\FlexSpace.Entidades.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\bin\Debug\net8.0\FlexSpace.Entidades.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\FlexSpace.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\FlexSpace.Entidades.AssemblyInfoInputs.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\FlexSpace.Entidades.AssemblyInfo.cs
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\FlexSpace.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\FlexSpace.Entidades.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\refint\FlexSpace.Entidades.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\FlexSpace.Entidades.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.Entidades\obj\Debug\net8.0\ref\FlexSpace.Entidades.dll

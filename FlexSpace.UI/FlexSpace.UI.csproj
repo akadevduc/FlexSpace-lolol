@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FlexSpace.BLL\FlexSpace.BLL.csproj" />
+    <ProjectReference Include="..\FlexSpace.Entidades\FlexSpace.Entidades.csproj" />
+  </ItemGroup>
+
 </Project>
