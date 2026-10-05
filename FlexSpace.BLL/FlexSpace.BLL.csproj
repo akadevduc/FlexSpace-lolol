@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FlexSpace.DAL\FlexSpace.DAL.csproj" />
+    <ProjectReference Include="..\FlexSpace.Entidades\FlexSpace.Entidades.csproj" />
+  </ItemGroup>
+
 </Project>

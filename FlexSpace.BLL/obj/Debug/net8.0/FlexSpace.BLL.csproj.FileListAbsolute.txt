@@ -1,0 +1,17 @@
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\bin\Debug\net8.0\FlexSpace.BLL.deps.json
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\bin\Debug\net8.0\FlexSpace.BLL.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\bin\Debug\net8.0\FlexSpace.BLL.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\bin\Debug\net8.0\FlexSpace.DAL.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\bin\Debug\net8.0\FlexSpace.Entidades.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\bin\Debug\net8.0\FlexSpace.DAL.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\bin\Debug\net8.0\FlexSpace.Entidades.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpace.BLL.csproj.AssemblyReference.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpace.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpace.BLL.AssemblyInfoInputs.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpace.BLL.AssemblyInfo.cs
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpace.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpac.6AFDE668.Up2Date
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpace.BLL.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\refint\FlexSpace.BLL.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\FlexSpace.BLL.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.BLL\obj\Debug\net8.0\ref\FlexSpace.BLL.dll

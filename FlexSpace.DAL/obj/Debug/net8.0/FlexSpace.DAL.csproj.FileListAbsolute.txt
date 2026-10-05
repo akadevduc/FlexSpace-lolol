@@ -1,0 +1,15 @@
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\bin\Debug\net8.0\FlexSpace.DAL.deps.json
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\bin\Debug\net8.0\FlexSpace.DAL.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\bin\Debug\net8.0\FlexSpace.DAL.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\bin\Debug\net8.0\FlexSpace.Entidades.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\bin\Debug\net8.0\FlexSpace.Entidades.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpace.DAL.csproj.AssemblyReference.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpace.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpace.DAL.AssemblyInfoInputs.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpace.DAL.AssemblyInfo.cs
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpace.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpac.AAC011BE.Up2Date
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpace.DAL.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\refint\FlexSpace.DAL.dll
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\FlexSpace.DAL.pdb
+C:\Users\Joacp\Downloads\FlexSpace-lolol-main\FlexSpace-lolol-main\FlexSpace.DAL\obj\Debug\net8.0\ref\FlexSpace.DAL.dll
